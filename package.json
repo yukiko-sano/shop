@@ -2,7 +2,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "eleventy --serve"
+    "dev": "eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
