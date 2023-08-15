@@ -1,0 +1,17 @@
+<html lang="ja">
+  <head>
+    <title>Eleventyサンプル</title>
+  </head>
+  <body>
+    {% include "_includes/header.njk" %}
+    <article>
+      {% block main %}
+        <p>ここに本文が入ります</p>
+      {% endblock %}
+      {{ content }}
+    </article>
+    <footer>
+      <p>&copy; sano</p>
+    </footer>
+  </body>
+</html>
